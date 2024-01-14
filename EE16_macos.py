@@ -1,4 +1,5 @@
 from tkinter import *
+from tkmacosx import Button as B
 from PIL import Image
 from customtkinter import *
 from tkinter import ttk
@@ -583,20 +584,22 @@ def info_screen():
     \n5) Click Save Changes."
 
     label_1 = ttk.Label(label_f_1,
-                font = ("Segoe UI",10,"bold"),
+                font = ("Segoe UI",11,"bold"),
                 text = text_1)
 
     label_1.pack(fill = "x")
 
     link_img = PhotoImage(file = "./resource/e_link.png")
 
-    link_1_B = Button(info_frame,
+    link_1_B = B(info_frame,
                 image = link_img,
-                borderwidth = 0,
                 relief = FLAT,
-                activebackground = "#1c1c1c",
+                overrelief = FLAT,
+                borderless = True,
+                height = 14,
+                width = 14,
                 command= lambda url ="https://mail.google.com/":click(url))
-    link_1_B.place(x = 305, y = 30)
+    link_1_B.place(x = 320, y = 28)
 
     label_f_2 = ttk.LabelFrame(info_frame,
                 #font = ("Segoe UI",10,"bold"),
@@ -614,16 +617,21 @@ def info_screen():
     \n4) Follow the on-screen steps.'
 
     label_2 = ttk.Label(label_f_2,
-                font = ("Segoe UI",10,"bold"),
+                font = ("Segoe UI",11,"bold"),
                 text = text_2)
 
     label_2.pack(fill = "x")
 
-    link_2_B = Button(info_frame,
+    link_2_B = B(info_frame,
                 image = link_img,
+                overrelief = FLAT,
+                relief = FLAT,
+                borderless = True,
+                height = 14,
+                width = 14,
                 command= lambda url = "https://myaccount.google.com/":click(url))
 
-    link_2_B.place(x = 187, y = 125)
+    link_2_B.place(x = 195, y = 133)
 
 
     label_f_3 = ttk.LabelFrame(info_frame,
@@ -650,7 +658,7 @@ def info_screen():
 
 
     label_3 = ttk.Label(label_f_3,
-                font = ("Segoe UI",10,"bold"),
+                font = ("Segoe UI",11,"bold"),
                 text = text_3)
 
     label_3.pack(fill = "x")
@@ -705,11 +713,11 @@ def main_screen():
 
     ttk.Label(screen,
         text = "  Email",
-        font = ("Segoe UI",10,"bold")).place(x = 27, y = 18)
+        font = ("Segoe UI",11,"bold")).place(x = 27, y = 18)
 
     ttk.Label(screen,
         text = "Password",
-        font = ("Segoe UI",10,"bold")).place(x = 10, y = 55)
+        font = ("Segoe UI",11,"bold")).place(x = 10, y = 55)
 
     mail_id = ttk.Entry(screen,
             width = 30)
