@@ -23,8 +23,10 @@
   <img width="1132" alt="image" src="https://github.com/umashankar-dev/Email-extractor-win/assets/134203544/950efc9f-ca93-4da2-b546-8a31349b496a">
   <img width="1132" alt="image" src="https://github.com/umashankar-dev/Email-extractor-win/assets/134203544/a39ea19d-5e3e-4ddd-a09b-f6e327bb0c3a">
 
+- Theme change <br/>
   <img width="472" alt="image" src="https://github.com/umashankar-dev/Email-extractor-mac/assets/134203544/267528a8-d5c2-4fdd-a9f1-da84a631ce1e">
-  <img width="667" alt="image" src="https://github.com/umashankar-dev/Email-extractor-mac/assets/134203544/6b341996-ead1-452a-9d0d-5f1442a5d4d3">
+  <img width="667" alt="image" src="https://github.com/umashankar-dev/Email-extractor-mac/assets/134203544/6b341996-ead1-452a-9d0d-5f1442a5d4d3"> <br/>
+- Show password <br/>
   <img width="472" alt="image" src="https://github.com/umashankar-dev/Email-extractor-mac/assets/134203544/08e9ec2d-abc6-43bf-9a7c-d8aa833a939b">
   <img width="472" alt="image" src="https://github.com/umashankar-dev/Email-extractor-mac/assets/134203544/cd169fea-844e-4164-8579-de42a92e9e6e">
 
